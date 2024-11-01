@@ -39,6 +39,38 @@ Here's an in-depth guide to essential Linux commands, broken down by category. E
 
 ---
 
+Every file and directory in Linux has three kinds of owners:
+
+
+### 1. Exmaple  ( symbolic mode )
+chmod g-rwx linux-practice/
+
+
+
+1.User   2.Group   3.Other
+---###########################---
+
+Here's a complete table for file permissions in Linux, with each permission level from 0 to 7:
+
+| Number | Binary | Permission | Explanation                    |
+|--------|--------|------------|--------------------------------|
+| 0      | 000    | ---        | No permissions                 |
+| 1      | 001    | --x        | Execute only                   |
+| 2      | 010    | -w-        | Write only                     |
+| 3      | 011    | -wx        | Write and execute              |
+| 4      | 100    | r--        | Read only                      |
+| 5      | 101    | r-x        | Read and execute               |
+| 6      | 110    | rw-        | Read and write                 |
+| 7      | 111    | rwx        | Read, write, and execute       |
+
+Each permission level represents a combination of `read (r)`, `write (w)`, and `execute (x)` permissions. The table uses binary representation to illustrate how the numbers correspond to specific permissions in Linux.
+
+### 2. Exmaple  ( absolute mode or numeric form )
+    chmod 755 file.txt
+    chmod 600 file.txt
+    chmod 777 public_file.txt
+
+
 ### File Operations Commands
 1. **`cd`** – Changes the current directory.
    - **Usage**: `cd [directory]`
