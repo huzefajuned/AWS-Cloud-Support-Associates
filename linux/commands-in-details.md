@@ -182,5 +182,69 @@ Here's an in-depth guide to essential Linux commands, broken down by category. E
     - **Usage**: `crontab -e`
     - **Example**: `* * * * * /path/to/script.sh` runs a script every minute.
 
-14. **`ssh`** – Connects to remote servers.
-    - **Usage
+14. **`ssh`** – Connects to remote servers securely.
+    - **Usage**: `ssh [username]@[hostname or IP address]`
+    - **Example**: `ssh user@192.168.1.10` opens a remote shell session on the server.
+    - **Key Options**:
+      - `-p [port]`: Connects to a server on a specific port. Example: `ssh -p 2222 user@192.168.1.10`.
+      - `-i [identity_file]`: Specifies the private key file for authentication.
+      - `-L [local_port]:[destination_host]:[destination_port]`: Sets up local port forwarding.
+      - `-R [remote_port]:[destination_host]:[destination_port]`: Sets up remote port forwarding.
+      - `-X`: Enables X11 forwarding to run GUI applications remotely.
+
+15. **`clear`** – Clears the terminal screen.
+    - **Usage**: `clear`
+    - **Example**: `clear` clears all visible content on the terminal screen.
+
+16. **`history`** – Shows the command history.
+    - **Usage**: `history`
+    - **Example**: `history | grep ssh` shows all previous `ssh` commands.
+
+17. **`date`** – Displays or sets the system date and time.
+    - **Usage**: `date [options]`
+    - **Example**: `date +"%Y-%m-%d %H:%M:%S"` displays the current date in the specified format.
+
+18. **`cal`** – Displays a calendar.
+    - **Usage**: `cal [month] [year]`
+    - **Example**: `cal 12 2024` displays the calendar for December 2024.
+
+19. **`uname`** – Shows system information.
+    - **Usage**: `uname [options]`
+    - **Example**: `uname -a` displays all available system information.
+    - **Options**:
+      - `-r`: Shows the kernel release.
+      - `-m`: Shows the machine hardware name.
+
+20. **`uptime`** – Displays the time since the system was last booted.
+    - **Usage**: `uptime`
+    - **Example**: `uptime` shows how long the system has been running, the number of users, and the system load averages.
+
+21. **`who`** – Shows who is logged in on the system.
+    - **Usage**: `who`
+    - **Example**: `who` lists all users currently logged into the system.
+
+22. **`df`** – Reports file system disk space usage.
+    - **Usage**: `df [options]`
+    - **Example**: `df -h` displays disk usage in a human-readable format.
+
+23. **`du`** – Estimates file and directory space usage.
+    - **Usage**: `du [options] [directory]`
+    - **Example**: `du -sh /home/user` displays the size of the user’s home directory.
+
+24. **`cron`** – Manages recurring scheduled tasks.
+    - **Usage**: `crontab -e` to edit the cron jobs for the current user.
+    - **Example**: `0 2 * * * /path/to/backup.sh` runs `backup.sh` daily at 2 a.m.
+    - **Options**:
+      - `crontab -l`: Lists the current user’s cron jobs.
+      - `crontab -r`: Removes all of the current user’s cron jobs.
+
+25. **`sudo`** – Executes commands as the superuser (administrator).
+    - **Usage**: `sudo [command]`
+    - **Example**: `sudo apt-get update` runs the update as an administrator.
+    - **Options**:
+      - `sudo -u [user] [command]`: Runs the command as a specified user.
+      - `sudo -s`: Opens a new shell with elevated privileges.
+
+---
+
+This guide covers essential Linux commands organized by category with their usage, examples, and options. Practicing these commands on your terminal can help you deepen your understanding and improve your efficiency in managing and troubleshooting Linux systems.
