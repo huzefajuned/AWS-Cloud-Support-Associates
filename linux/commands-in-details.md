@@ -25,7 +25,7 @@ Here's an in-depth guide to essential Linux commands, broken down by category. E
    - **Usage**: `telnet [hostname] [port]`
    - **Example**: `telnet google.com 80` connects to Google's HTTP port.
 
-5. **`traceroute`** – Tracks the path packets take to reach a host.
+5. **`traceroute ` or `tracepath`** – Tracks the path packets take to reach a host.
    - **Usage**: `traceroute [hostname or IP]`
    - **Example**: `traceroute google.com` shows hops to Google.
 
