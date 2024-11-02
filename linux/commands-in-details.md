@@ -117,6 +117,9 @@ Each permission level represents a combination of `read (r)`, `write (w)`, and `
     - **Options**:
       - `-a` : Shows hidden files.
       - `-lh` : Displays sizes in a human-readable format.
+12. **`echo`** – Prints text or variables.
+    - **Usage**: `echo [text or variable]`
+    - **Example**: `echo $USER` prints the current user.
 
 ---
 
