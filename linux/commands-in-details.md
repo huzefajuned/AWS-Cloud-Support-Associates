@@ -115,7 +115,7 @@ Each permission level represents a combination of `read (r)`, `write (w)`, and `
 8. **`cp`** – Copies files and directories.
    - **Usage**: `cp [source] [destination]`
    - **Example**: `cp file1.txt /tmp` copies `file1.txt` to `/tmp`.
-   
+
    - `To copy the contents of the current working directory (.) recursively `
      `you need to specify the -r flag or an equivalent option (e.g., -R or --recursive)`
      `along with the cp command. For example: cp -r . /destination/directory`
@@ -155,7 +155,28 @@ Each permission level represents a combination of `read (r)`, `write (w)`, and `
 
 ## Use `cat` for quick file viewing, while `less`, `head`, and `tail` help with navigation for larger files.
 
-### Resource Utilization Commands
+
+
+### Pattern Searching Commands
+
+1. **`find`** – Finds files or directories.
+
+   - **Usage**: `find [path] [options] [expression]`
+   - **Example**: `find /home -name "*.txt"` finds all `.txt` files in `/home`.
+
+2. **`locate`** – Finds files by name.
+
+   - **Usage**: `locate [pattern]`
+   - **Example**: `locate file.txt` searches for `file.txt` across the system.
+
+3. **`grep`** – Searches text patterns in files.
+   - **Usage**: `grep [options] "pattern" [file]`
+   - **Example**: `grep "hello" file.txt` finds lines with "hello" in `file.txt`.
+
+---
+
+
+### Resource or CPU  Utilization AND usage Commands
 
 1. **`df`** – Displays disk space usage.
 
@@ -183,23 +204,155 @@ Each permission level represents a combination of `read (r)`, `write (w)`, and `
 
 ---
 
-### Pattern Searching Commands
+Here is a list of essential Linux commands for monitoring resource utilization, covering CPU, memory, disk, network, and process management:
 
-1. **`find`** – Finds files or directories.
+### CPU Utilization
+1. **top** - Real-time view of all processes and CPU usage.
+   ```bash
+   top
+   ```
+2. **htop** - Improved version of `top` with a more user-friendly interface (needs to be installed).
+   ```bash
+   htop
+   ```
+3. **mpstat** - CPU usage per processor (part of the `sysstat` package).
+   ```bash
+   mpstat
+   ```
+4. **sar** - Historical CPU usage statistics.
+   ```bash
+   sar -u 1 3
+   ```
+5. **iostat** - CPU and disk I/O statistics (part of `sysstat`).
+   ```bash
+   iostat
+   ```
 
-   - **Usage**: `find [path] [options] [expression]`
-   - **Example**: `find /home -name "*.txt"` finds all `.txt` files in `/home`.
+### Memory Utilization
+1. **free** - Shows total, used, and available memory.
+   ```bash
+   free -h
+   ```
+2. **vmstat** - Provides memory, CPU, and IO statistics.
+   ```bash
+   vmstat
+   ```
+3. **smem** - Displays memory usage per process.
+   ```bash
+   smem
+   ```
+4. **pmap** - Shows memory map of a specific process by PID.
+   ```bash
+   pmap <PID>
+   ```
 
-2. **`locate`** – Finds files by name.
+### Disk Utilization
+1. **df** - Disk usage of file systems.
+   ```bash
+   df -h
+   ```
+2. **du** - Disk usage of files and directories.
+   ```bash
+   du -sh <directory>
+   ```
+3. **lsblk** - List information about all block devices.
+   ```bash
+   lsblk
+   ```
+4. **iostat** - Disk I/O statistics.
+   ```bash
+   iostat -dx
+   ```
+5. **dstat** - Combines CPU, disk, network, and other stats in a single view.
+   ```bash
+   dstat
+   ```
 
-   - **Usage**: `locate [pattern]`
-   - **Example**: `locate file.txt` searches for `file.txt` across the system.
+### Network Utilization
+1. **ifconfig** - Shows network interfaces and their statuses.
+   ```bash
+   ifconfig
+   ```
+2. **ip** - Replacement for `ifconfig`, displays IP addresses and network interfaces.
+   ```bash
+   ip addr
+   ```
+3. **ss** - Displays detailed socket information.
+   ```bash
+   ss -tuln
+   ```
+4. **netstat** - Displays network connections, routing tables, and interface statistics.
+   ```bash
+   netstat -tuln
+   ```
+5. **nload** - Real-time network traffic monitoring (needs to be installed).
+   ```bash
+   nload
+   ```
 
-3. **`grep`** – Searches text patterns in files.
-   - **Usage**: `grep [options] "pattern" [file]`
-   - **Example**: `grep "hello" file.txt` finds lines with "hello" in `file.txt`.
+### Process Management
+1. **ps** - Shows a snapshot of current processes.
+   ```bash
+   ps aux
+   ```
+2. **top** - Real-time view of processes, also shows CPU and memory usage.
+   ```bash
+   top
+   ```
+3. **htop** - Interactive view for managing processes (needs to be installed).
+   ```bash
+   htop
+   ```
+4. **pgrep** - Find process IDs based on process name.
+   ```bash
+   pgrep <process_name>
+   ```
+5. **pidstat** - CPU, memory, and I/O usage per process (part of `sysstat`).
+   ```bash
+   pidstat
+   ```
 
----
+### File and I/O Monitoring
+1. **lsof** - Lists open files and their associated processes.
+   ```bash
+   lsof
+   ```
+2. **iotop** - Disk I/O usage per process (needs to be installed).
+   ```bash
+   iotop
+   ```
+3. **inotifywait** - Monitors changes to files and directories.
+   ```bash
+   inotifywait -m <directory>
+   ```
+4. **strace** - Traces system calls and signals for a specific process.
+   ```bash
+   strace -p <PID>
+   ```
+
+### System-Wide Resource Monitoring
+1. **dstat** - Combines CPU, memory, network, and disk usage stats.
+   ```bash
+   dstat
+   ```
+2. **glances** - Real-time system monitoring tool with an overview of all resources (needs to be installed).
+   ```bash
+   glances
+   ```
+3. **vmstat** - System performance including memory, swap, and I/O.
+   ```bash
+   vmstat 1
+   ```
+4. **sar** - Collects and reports system activity (part of `sysstat`).
+   ```bash
+   sar -u 1 3
+   ```
+
+These commands provide a comprehensive overview for monitoring resources and processes in a Linux environment, helping in identifying bottlenecks and optimizing performance.
+
+
+
+
 
 ### General Operations Commands
 
