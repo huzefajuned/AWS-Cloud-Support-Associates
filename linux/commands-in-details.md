@@ -178,33 +178,6 @@ Each permission level represents a combination of `read (r)`, `write (w)`, and `
 
 ### Resource or CPU  Utilization AND usage Commands
 
-1. **`df`** – Displays disk space usage.
-
-   - **Usage**: `df [options]`
-   - **Example**: `df -h` shows disk usage in a human-readable format.
-
-2. **`du`** – Estimates file or directory space usage.
-
-   - **Usage**: `du [options] [directory]`
-   - **Example**: `du -sh /home` provides the total size of `/home`.
-
-3. **`free`** – Shows memory usage.
-
-   - **Usage**: `free [options]`
-   - **Example**: `free -m` displays memory in megabytes.
-
-4. **`top`** – Shows real-time process information.
-
-   - **Usage**: `top`
-   - **Example**: Displays ongoing processes, CPU, and memory usage.
-
-5. **`ps`** – Reports the current processes.
-   - **Usage**: `ps [options]`
-   - **Example**: `ps aux` lists all running processes.
-
----
-
-Here is a list of essential Linux commands for monitoring resource utilization, covering CPU, memory, disk, network, and process management:
 
 ### CPU Utilization
 1. **top** - Real-time view of all processes and CPU usage.
