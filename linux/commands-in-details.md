@@ -41,14 +41,11 @@ Here's an in-depth guide to essential Linux commands, broken down by category. E
 
 Every file and directory in Linux has three kinds of owners:
 
+1.User   2.Group   3.Other
 
 ### 1. Exmaple  ( symbolic mode )
-chmod g-rwx linux-practice/
+chmod g-rwx linux-practice
 
-
-
-1.User   2.Group   3.Other
----###########################---
 
 Here's a complete table for file permissions in Linux, with each permission level from 0 to 7:
 
