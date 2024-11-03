@@ -4,28 +4,55 @@ For any technical interviews, you should have grasp on Operation System concepts
 
 ### List of topics
 
-1. [what is Operating system?](https://www.tutorialspoint.com/operating_system/os_overview.htm)
-2. [Types of OS?](https://www.geeksforgeeks.org/types-of-operating-systems/)
-3. [OS boot process?](https://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer/)
-4. [Process? process diagram?, stages of process execution?](https://www.tutorialspoint.com/operating_system/os_processes.htm)
-5. [Inter process communication](https://www.geeksforgeeks.org/inter-process-communication-ipc/)
-6. [process scheduling](https://www.tutorialspoint.com/operating_system/os_process_scheduling.htm)
-7. [CPU scheduling and algorithms](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/), [link2](https://www.guru99.com/cpu-scheduling-algorithms.html)
-8. [Process synchronization](https://www.guru99.com/process-synchronization.html), [link2](https://afteracademy.com/blog/difference-between-mutex-and-semaphore-in-operating-system) - [critical section?](https://www.javatpoint.com/os-critical-section-problem) [mutex vs semaphore?](https://www.tutorialspoint.com/mutex-vs-semaphore)
-9. [System calls in OS](https://www.guru99.com/system-call-operating-system.html)
-10. [Deadlock?](https://www.javatpoint.com/os-deadlocks-introduction), [deadlock strategies](https://www.javatpoint.com/os-strategies-for-handling-deadlock)
-11. [Deadlock avoidance](https://www.javatpoint.com/os-deadlock-avoidance), [Deadlock prevention](https://www.javatpoint.com/os-deadlock-prevention), [Deadlock detection and recovery?](https://www.javatpoint.com/os-deadlock-detection-and-recovery)
-12. [Thread? user level thread vs kernel level thread?](https://www.javatpoint.com/threads-in-operating-system)
-13. [Process vs Thread?](https://www.geeksforgeeks.org/difference-between-process-and-thread/), [link2](https://stackoverflow.com/questions/200469/what-is-the-difference-between-a-process-and-a-thread)
-14. [OS Memory management?](https://www.guru99.com/os-memory-management.html), [Paging?](https://www.geeksforgeeks.org/paging-in-operating-system/), [Virtual Memory?](https://www.geeksforgeeks.org/virtual-memory-in-operating-system/) [Page Fault handling?](https://www.geeksforgeeks.org/page-fault-handling-in-operating-system/)
-15. [Segmentation?](https://www.geeksforgeeks.org/segmentation-in-operating-system/)
-16. [Page replacement algorithms?](https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/), [link2](https://www.javatpoint.com/os-numerical-on-lru-fifo-and-optimal)
-17. [File systems?](https://www.guru99.com/file-systems-operating-system.html)
-18. [File permissions](https://www.tutorialspoint.com/unix/unix-file-permission.htm)
-19. [Disk scheduling algorithm](https://www.geeksforgeeks.org/disk-scheduling-algorithms/)
-20. [linux commands](https://github.com/msdeep14/getAheadWithMe/blob/main/linux/topCommands.md)
-21. [Linux run levels](https://www.geeksforgeeks.org/run-levels-linux/)
-22. [Cache?](https://www.tutorialspoint.com/What-is-caching) [cache vs RAM?](https://www.geeksforgeeks.org/difference-between-ram-and-cache/)
-23. [Thrashing?](https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html)
-24. [daemon process?](https://notes.shichao.io/apue/ch13/)
-25. [Zombie & orphan process?](https://www.geeksforgeeks.org/zombie-and-orphan-processes-in-c/), [link2 on how to kill zombie process](https://stackoverflow.com/questions/16944886/how-to-kill-zombie-process)
+Here's an updated list of Operating System topics for interview preparation, without the links:
+
+### List of Topics
+
+1. What is an Operating System?
+2. Types of OS
+3. OS Boot Process
+4. Process, Process Diagram, Stages of Process Execution
+5. Inter-process Communication
+6. Process Scheduling
+7. CPU Scheduling and Algorithms
+8. Process Synchronization
+   - Critical Section
+   - Mutex vs Semaphore
+9. System Calls in OS
+10. Deadlock
+11. Deadlock Avoidance, Prevention, Detection, and Recovery
+12. Threads, User-level Thread vs Kernel-level Thread
+13. Process vs Thread
+14. OS Memory Management
+
+- Paging
+- Virtual Memory
+- Page Fault Handling
+
+15. Segmentation
+16. Page Replacement Algorithms
+17. File Systems
+18. File Permissions
+19. Disk Scheduling Algorithms
+20. Linux Commands
+21. Linux Run Levels
+22. Cache and Cache vs RAM
+23. Thrashing
+24. Daemon Process
+25. Zombie and Orphan Processes, How to Kill a Zombie Process
+26. I/O Management and I/O Scheduling
+27. Multithreading and Concurrency
+28. Real-Time Operating Systems (RTOS)
+29. Context Switching
+30. Virtualization and Hypervisors
+31. Kernel Modes (User Mode vs Kernel Mode)
+32. Security and Protection in OS
+33. Memory Allocation Strategies (Fixed, Dynamic)
+34. Swapping
+35. Buffering and Spooling
+36. Disk Structure and Partitioning
+37. Filesystem Journaling and Types (NTFS, EXT, etc.)
+38. Process Control Block (PCB)
+39. Shells and Scripting Basics (for Unix/Linux systems)
+40. System Performance Monitoring and Optimization Techniques
+41. Interrupts and Interrupt Handling
