@@ -1,18 +1,12 @@
 # OPERATING SYSTEM INTERVIEW PREPARATION TOP TOPICS
+
 For any technical interviews, you should have grasp on Operation System concepts. The below list of topics will help you to fast forward your interview preparation and get ahead.
 
-### Tips on preparing from this list
-Along with topic name, I've also included link where you can read about it. Do prepare each and every topic from this list. 
-
-#### :blue_heart: :blue_heart: If you find this repository useful, do share it with the larger group. For more such content, don't forget to subscribe to my [YouTube channel : MsDeep Singh](https://www.youtube.com/channel/UC5GDb4oVOCxUESy0dZOieIw)
-
-#### [YouTube video link on how you can study from this list in best possible way](https://youtu.be/1efZQc76coE)
-
-
 ### List of topics
+
 1. [what is Operating system?](https://www.tutorialspoint.com/operating_system/os_overview.htm)
 2. [Types of OS?](https://www.geeksforgeeks.org/types-of-operating-systems/)
-3. [OS boot process?](https://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer/) 
+3. [OS boot process?](https://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer/)
 4. [Process? process diagram?, stages of process execution?](https://www.tutorialspoint.com/operating_system/os_processes.htm)
 5. [Inter process communication](https://www.geeksforgeeks.org/inter-process-communication-ipc/)
 6. [process scheduling](https://www.tutorialspoint.com/operating_system/os_process_scheduling.htm)
@@ -35,9 +29,3 @@ Along with topic name, I've also included link where you can read about it. Do p
 23. [Thrashing?](https://www.thecrazyprogrammer.com/2019/02/thrashing-in-operating-system-os.html)
 24. [daemon process?](https://notes.shichao.io/apue/ch13/)
 25. [Zombie & orphan process?](https://www.geeksforgeeks.org/zombie-and-orphan-processes-in-c/), [link2 on how to kill zombie process](https://stackoverflow.com/questions/16944886/how-to-kill-zombie-process)
-
-### Social Media links
-##### :point_right: Instagram: https://www.instagram.com/msdeep14/
-##### :point_right: LinkedIn: https://www.linkedin.com/in/msdeep14/
-
-### Good luck :v:
